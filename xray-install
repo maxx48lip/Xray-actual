@@ -64,10 +64,11 @@ cat << EOF > /usr/local/etc/xray/config.json
                 "security": "reality",
                 "realitySettings": {
                     "show": false,
-                    "dest": "",
+                    "dest": "web.max.ru:443",
                     "xver": 0,
                     "serverNames": [
-                        ""
+                        "web.max.ru",
+                        "www.web.max.ru"
                     ],
                     "privateKey": "$privatkey",
                     "minClientVer": "",
